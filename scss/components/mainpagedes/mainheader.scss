@@ -1,0 +1,10 @@
+@use "../../util";
+@use "../../globals";
+.headerdes {
+  @extend .fullwidth;
+  background-color: util.$black;
+  height: 100px;
+  h2 {
+    color: util.$white;
+  }
+}

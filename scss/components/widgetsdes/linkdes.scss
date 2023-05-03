@@ -1,0 +1,16 @@
+@use "../../util";
+@use "../../globals";
+.linkdes1 {
+  @extend .fullwidth;
+  height: 20%;
+  background-color: util.$black;
+  color: util.$white;
+  font-family: util.$font1;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: util.$darkgreen;
+    color: util.$white;
+  }
+}
